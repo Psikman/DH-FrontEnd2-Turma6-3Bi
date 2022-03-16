@@ -66,3 +66,14 @@ function atributosDinamicos() {
     3 - Definir uma nova URL da internet (Foto pública da net) 
     4 - Acessar o atributo "src" das imagens e fazer a nova atribuição
 */
+
+
+// Passo 1
+let selecao = prompt("Informe o felino para alteração: (0) Leão, (1) Leopardo, (2) Pantera, (3) Jaguar ou (4) Guepardo");
+//alert(selecao)
+// Passo 3
+let novaUrl = prompt("Informe a nova URL: ")
+
+let listaImagens = document.querySelectorAll("img");
+// Passo 4
+listaImagens[selecao].setAttribute("src", novaUrl)
