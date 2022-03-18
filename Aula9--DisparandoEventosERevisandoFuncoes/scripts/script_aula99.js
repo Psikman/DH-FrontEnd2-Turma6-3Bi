@@ -1,9 +1,8 @@
-function soma(num1 + num2){
-    return num1 + num2;
-
-}
-
-console.log(soma(5,5));
+let somaArrow = (valor1, valor2) => {
+    //bloco de código
+    return console.log(valor1 + valor2);
+  };
+  somaArrow(6, 8);
 
 
 
